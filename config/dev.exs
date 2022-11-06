@@ -2,8 +2,8 @@ import Config
 
 # Configure your database
 config :teachbase, Teachbase.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "req12345",
+  password: "qweszxc",
   hostname: "localhost",
   database: "teachbase_dev",
   stacktrace: true,

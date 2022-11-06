@@ -6,8 +6,8 @@ import Config
 # to provide built-in test partitioning in CI environment.
 # Run `mix help test` for more information.
 config :teachbase, Teachbase.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "req12345",
+  password: "qweszxc",
   hostname: "localhost",
   database: "teachbase_test#{System.get_env("MIX_TEST_PARTITION")}",
   pool: Ecto.Adapters.SQL.Sandbox,
