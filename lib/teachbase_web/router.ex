@@ -18,6 +18,7 @@ defmodule TeachbaseWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    get "/another_index", PageController, :home
   end
 
   # Other scopes may use custom stacks.
